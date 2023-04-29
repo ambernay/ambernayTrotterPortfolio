@@ -1,0 +1,57 @@
+@use './variables' as *;
+
+.contact-section {
+    background: $accent1;
+}
+
+form {
+    display: flex;
+    background: $lightAccent6;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    justify-content: space-between;
+    padding: 5%;
+
+    .name-email-container {
+        display: flex;
+        width: 100%;
+        column-gap: 20px;
+        row-gap: 20px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        input {
+            flex: 1 1 40%;
+        }
+    }
+
+    textarea,
+    input,
+    button {
+        color: $darkAccent;
+        outline: none;
+        border: 1px solid $darkAccent;
+        background: none;
+        padding: 10px;
+    }
+
+    .button-container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+        button {
+            background-color: $accent1;
+            color: $darkAccent;
+            width: 100px;
+            align-self: center;
+        }
+    }
+
+    input[name="subject"], textarea {
+        width: 100%;
+    }
+}
+
+

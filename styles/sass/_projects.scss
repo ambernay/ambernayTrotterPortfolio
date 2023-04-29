@@ -1,0 +1,73 @@
+@use './variables' as *;
+
+.projects-section {
+    background: $lightAccent4;
+
+    .projects-container {
+        display: flex;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            column-gap: $padding-gaps;
+            row-gap: $padding-gaps;
+
+            li {
+                display: flex;
+                background: $lightAccent5;
+                flex-direction: column;
+                flex: 1 1 40%;
+                min-width: 300px;
+            }
+        }
+    }
+}
+
+.content-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: $padding-gaps;
+    padding-left: 40px;
+
+    h5 {
+        color: $accent2;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        padding-bottom: 20px;
+
+        ul {
+            row-gap: 10px;
+            margin-top: 10px;
+
+            li {
+                display: list-item;
+                min-width: 240px;
+            }
+        }
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 20px;
+
+        .link {
+            background: $accent2;
+            display: flex;
+            width: 75px;
+            justify-content: center;
+            padding: 5px;
+
+            a {
+                color: $lightAccent4;
+            }
+        }
+    }
+}

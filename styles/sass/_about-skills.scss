@@ -1,0 +1,46 @@
+@use './variables' as *;
+
+// about
+.about-section {
+    background: $lightAccent2;
+    color: $darkAccent;
+    text-align: center;
+}
+// skills
+.skills-section {
+    background: $accent4;
+
+    .skill-container {
+
+        h3, h5{
+          color: $lightAccent1;
+        }
+
+        ul {
+            display: flex;
+            column-gap: $padding-gaps;
+            flex-wrap: wrap;
+            justify-content: center;
+
+            li {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                .icon-container {
+                    display: flex;
+                    width: 8vw;
+                    height: 8vw;
+                    justify-content: center;
+                    align-items: center;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+}

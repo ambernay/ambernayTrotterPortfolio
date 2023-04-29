@@ -1,0 +1,57 @@
+@use './variables' as *;
+
+// header
+header {
+
+    .nav-container {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: $navHeight;
+        width: 100%;
+        justify-content: center;
+        background: $darkAccent;
+        z-index: 10;
+
+        ul {
+            display: flex;
+            height: $navHeight;
+            justify-content: space-evenly;
+            align-items: flex-end;
+
+            a {
+                color: $lightAccent1;
+            }
+        }
+    }
+
+    .main-header-container {
+        height: calc(100vh - $navHeight);
+        background: url("../assets/amritansh-dubey-RMhEsHR2gzA-unsplash.jpg");
+        background-size: cover;
+        background-position-y: 75vw;
+        margin-top: $navHeight;
+
+        .heading-text-container {
+            display: flex;
+            position: absolute;
+            top: 53%;
+            left: auto;
+            flex-direction: column;
+            row-gap: 12px;
+            color: $lightAccent1;
+        }
+    }
+}
+
+// footer
+footer {
+    background: $darkAccent;
+    padding: $padding-gaps;
+
+    h4 {
+        color: $lightAccent1;
+        font-size: 1.2rem;
+    }
+}

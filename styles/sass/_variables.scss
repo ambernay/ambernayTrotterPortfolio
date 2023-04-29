@@ -1,0 +1,31 @@
+/* #region - colors */
+$accent1: hsl(39 95 67);
+$accent2: hsl(9 72 57);
+$accent3:#529186;
+$accent4: #035b53;
+$accent5: rgba(43, 146, 177, 255);
+$lightAccent1: #e2f5ea;
+$lightAccent2: #fffceb;
+$lightAccent3: rgba(237, 250, 255, 255);
+$lightAccent4: hsl(9 72 95);
+$lightAccent5: hsl(9 72 98);
+$lightAccent6: hsl(39 95 98);
+$darkAccent: #001610;
+/* #endregion - colors */
+
+/* #region - fonts */
+$headings-font: Poiret One,
+    Helvetica Neue,
+    Helvetica,
+    Arial,
+    sans-serif;
+$paragraph-font: 'Fauna One',
+    serif;
+// $paragraph-font: century-gothic,
+//     sans-serif;
+/* #endregion - fonts */
+
+/* #region - heights an widths */
+$navHeight: 6vh;
+$padding-gaps: 30px;
+/* #endregion - heights an widths */
