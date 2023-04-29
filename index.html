@@ -23,12 +23,19 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#about" class="about-link">About</a>
-                    </li>
-                    <li><a href="#portfolio" class="portfolio-link">Portfolio</a>
+                        <span>
+                            <a href="#about" class="about-link">About</a>
+                        </span>
                     </li>
                     <li>
-                        <a href="#contact" class="contact-link">Contact</a>
+                        <span>
+                            <a href="#projects" class="portfolio-link">projects</a>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            <a href="#contact" class="contact-link">Contact</a>
+                        </span>
                     </li>
                 </ul>
             </nav>
@@ -47,7 +54,7 @@
 </header>
 
 <main>
-    <section class="about-section main-sections">
+    <section id="about" class="about-section main-sections">
         <div class="wrapper">
             <div class="about-container container">
                 <h3>About Me</h3>
@@ -118,7 +125,7 @@
             </div>
         </div>
     </section><!-- skills section -->
-    <section class="projects-section main-sections">
+    <section id="projects" class="projects-section main-sections">
         <div class="wrapper">
             <div class="projects-container container">
                 <h3>Projects</h3>
@@ -133,12 +140,17 @@
                                 <h4>Organic Supermarket</h4>
                                 <h5>Javascript | SASS | Firebase</h5>
                                 <ul>
+                                    <li>Collaboration on Firebase implimentation</li>
                                     <li>Product items generated dynamicaly from Firebase</li>
                                 </ul>
                             </div>
                             <div class="links-container">
-                                <div class="link"><a href="">Live</a></div>
-                                <div class="link"><a href="">Repo</a></div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://ambernaytrotter.ca">Live</a>
+                                </div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://github.com/ambernay/ambernayTrotter-RayanMishra-OrganicSupermarket">Repo</a>
+                                </div>
                             </div>
                         </div>
                     </li><!-- item 1 -->
@@ -157,8 +169,12 @@
 
                             </div>
                             <div class="links-container">
-                                <div class="link"><a href="">Live</a></div>
-                                <div class="link"><a href="">Repo</a></div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://ambernay.github.io/Crossword2/">Live</a>
+                                </div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://github.com/ambernay/Crossword2">Repo</a>
+                                </div>
                             </div>
                         </div>
                     </li><!-- item 2 -->
@@ -182,8 +198,12 @@
 
                             </div>
                             <div class="links-container">
-                                <div class="link"><a href="">Live</a></div>
-                                <div class="link"><a href="">Repo</a></div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://ambernay.github.io/LoveTester/">Live</a>
+                                </div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://github.com/ambernay/LoveTester">Repo</a>
+                                </div>
                             </div>
                         </div>
                     </li><!-- item 3 -->
@@ -200,13 +220,16 @@
 
                                     </li>
                                     <li> Generates consistant number based on inputs
-
                                     </li>
                                 </ul>
                             </div>
                             <div class="links-container">
-                                <div class="link"><a href="">Live</a></div>
-                                <div class="link"><a href="">Repo</a></div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://ambernay.github.io/LoveTester/">Live</a>
+                                </div>
+                                <div class="link">
+                                    <a target="_blank" attribute href="https://github.com/ambernay/LoveTester">Repo</a>
+                                </div>
                             </div>
                         </div>
                     </li><!-- item 2 -->
@@ -214,28 +237,25 @@
             </div>
         </div>
     </section>
-    <section class="contact-section main-sections">
+    <section id="contact" class="contact-section main-sections">
         <div class="wrapper">
             <div class="contact-container container">
                 <h3>Contact</h3>
-                <form action="submit" class="container">
-
-                    <span class="name-email-container">
-                        <label for="your-name" class="sr-only">Name:</label>
-                        <input type="text" class="container" name="your-name" placeholder="Your name">
-                        <label for="email" class="sr-only">Email:</label>
-                        <input type="text" class="container" name="email" placeholder="Your email">
-                    </span>
-
-                    <label for="subject" class="sr-only">Subject:</label>
-                    <input type="text" class="container" name="subject" placeholder="Subject...">
-                    <label for="message" class="sr-only">Message:
-                    </label>
-                    <textarea name="message" class="container" id="" cols="30" rows="5" placeholder="Message..."></textarea>
-                    <div class="button-container">
-                        <button>Send</button>
+                <div class="info-container">
+                    <div class="contact-link-container">
+                        <p>ambernaytrotter@gmail.com</p>
+                        <img src="./assets/clipboard-icon/copy.svg" alt="copy to clipboard icon">
                     </div>
-                </form>
+
+                    <div class="contact-link-container">
+                        <p>https://www.linkedin.com/in/ambernaytrotter/</p>
+                        <img src="./assets/clipboard-icon/copy.svg" alt="copy to clipboard icon">
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button>Email Ambernay</button>
+                </div>
             </div>
         </div> <!-- wrapper -->
     </section><!-- contact -->

@@ -269,6 +269,10 @@ header .nav-container ul {
       -ms-flex-align: end;
           align-items: flex-end;
 }
+header .nav-container ul span:hover {
+  color: #e2f5ea;
+  text-decoration: underline;
+}
 header .nav-container ul a {
   color: #e2f5ea;
 }
@@ -292,6 +296,15 @@ header .main-header-container .heading-text-container {
           flex-direction: column;
   row-gap: 12px;
   color: #e2f5ea;
+}
+
+footer {
+  background: #001610;
+  padding: 30px;
+}
+footer h4 {
+  color: #e2f5ea;
+  font-size: 1.2rem;
 }
 
 .about-section {
@@ -451,80 +464,37 @@ header .main-header-container .heading-text-container {
 .contact-section {
   background: hsl(39, 95%, 67%);
 }
-
-form {
+.contact-section .info-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: hsl(39, 95%, 98%);
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  row-gap: 20px;
-  -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+  margin-bottom: 30px;
 }
-form .name-email-container {
+.contact-section .info-container .contact-link-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
-  -webkit-column-gap: 20px;
-     -moz-column-gap: 20px;
-          column-gap: 20px;
-  row-gap: 20px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-form .name-email-container input {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40%;
-          flex: 1 1 40%;
-}
-form textarea,
-form input,
-form button {
-  color: #001610;
-  outline: none;
-  border: 1px solid #001610;
-  background: none;
-  padding: 10px;
-}
-form .button-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
+  overflow-wrap: anywhere;
 }
-form .button-container button {
-  background-color: hsl(39, 95%, 67%);
-  color: #001610;
-  width: 100px;
-  -ms-flex-item-align: center;
-      align-self: center;
+.contact-section .info-container .contact-link-container img {
+  width: 1.2rem;
+  margin: 0 10px;
 }
-form input[name=subject], form textarea {
-  width: 100%;
+.contact-section button {
+  background: #fffbf5;
+  padding: 10px;
 }
 
-footer {
-  background: #001610;
-  padding: 30px;
-}
-footer h4 {
-  color: #e2f5ea;
-  font-size: 1.2rem;
-} /* #region re-set styles */
+/* #region re-set styles */
 html {
   font-size: 125%;
   background: #001610;
@@ -569,7 +539,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
 }
 
