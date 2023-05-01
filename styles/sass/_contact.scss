@@ -28,15 +28,25 @@
     }
    }
 
+   .copy-icon {
+    .clipboard-tooltip {
+            display: none;
+        }
+   }
+
    .button-container {
     background: $lightAccent3;
     padding: 10px;
+
+        a {
+            color: $paragraphDark;
+        }
    }
 
    .button-container:hover, .button-container:active {
     background: $midAccent3;
    }
-
+    // hover styles
    .contact-link-container:hover {
         a {
             color: $paragraghMidColor;
@@ -47,6 +57,22 @@
         }
         svg {
             fill: $midAccent3;
+        }
+   }
+
+   .copy-icon:hover {
+        position: relative;
+
+        .clipboard-tooltip {
+            display: inline-flex;
+            position: absolute;
+            top: -110%;
+            right: 0;
+            background: $lightAccent3;
+            opacity: 0.75;
+            font-size: 0.8rem;
+            align-items: center;
+            padding: 6px;
         }
    }
 }

@@ -500,9 +500,15 @@ footer h4 {
   color: #001610;
   font-family: "Fauna One", serif;
 }
+.contact-section .copy-icon .clipboard-tooltip {
+  display: none;
+}
 .contact-section .button-container {
   background: hsl(36, 100%, 98%);
   padding: 10px;
+}
+.contact-section .button-container a {
+  color: #001610;
 }
 .contact-section .button-container:hover, .contact-section .button-container:active {
   background: hsl(40, 92%, 90%);
@@ -516,6 +522,24 @@ footer h4 {
 }
 .contact-section .contact-link-container:hover svg {
   fill: hsl(40, 92%, 90%);
+}
+.contact-section .copy-icon:hover {
+  position: relative;
+}
+.contact-section .copy-icon:hover .clipboard-tooltip {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  top: -110%;
+  right: 0;
+  background: hsl(36, 100%, 98%);
+  opacity: 0.75;
+  font-size: 0.8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 6px;
 }
 
 /* #region re-set styles */
