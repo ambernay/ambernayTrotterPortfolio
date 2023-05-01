@@ -11,7 +11,7 @@ header {
         height: $navHeight;
         width: 100%;
         justify-content: center;
-        background: $darkAccent;
+        background: $paragraphDark;
         z-index: 10;
 
         ul {
@@ -21,7 +21,7 @@ header {
             align-items: flex-end;
 
             // underline links on hover
-            span:hover {
+            span:hover, span:active {
                 color: $lightAccent1;
                 text-decoration: underline;
             }
@@ -53,7 +53,7 @@ header {
 
 // footer
 footer {
-    background: $darkAccent;
+    background: $paragraphDark;
     padding: $padding-gaps;
 
     h4 {

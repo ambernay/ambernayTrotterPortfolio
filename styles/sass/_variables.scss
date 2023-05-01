@@ -1,16 +1,23 @@
 /* #region - colors */
-$accent1: hsl(39 95 67);
-$accent2: hsl(9 72 57);
-$accent3:#529186;
-$accent4: #035b53;
-$accent5: rgba(43, 146, 177, 255);
-$lightAccent1: #e2f5ea;
-$lightAccent2: #fffceb;
-$lightAccent3: rgba(237, 250, 255, 255);
-$lightAccent4: hsl(9 72 95);
-$lightAccent5: hsl(9 72 98);
-$lightAccent6: #fffbf5;
-$darkAccent: #001610;
+    $paragraphDark: #001610;
+    $paragraghMidColor: hsl(164 100 15);
+    /* #region - green */
+    $accent1: #035b53;
+    $lightAccent1: #e2f5ea;
+
+    /* #endregion - green */
+    /* #region - red */
+    $accent2: hsl(9 72 57);
+    $midAccent2: hsl(9 72 95);
+    $lightAccent2: hsl(9 72 98);
+    /* #endregion - red */
+
+    /* #region - yellow */
+    $accent3: hsl(39 95 67);
+    $midAccent3: hsl(40 92 90);
+    $lightAccent3: hsl(36 100 98);
+    /* #endregion - yellow */
+
 /* #endregion - colors */
 
 /* #region - fonts */

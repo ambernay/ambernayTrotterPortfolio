@@ -8,7 +8,7 @@
 /* #region re-set styles */
 html {
     font-size: 125%;
-    background: $darkAccent;
+    background: $paragraphDark
 }
 
 .main-sections {
@@ -35,6 +35,8 @@ ul {
 }
 
 a, button, input, textarea {
+    background: none;
+    border:none;
     text-decoration: none;
     font-size: 1.2rem;
 }

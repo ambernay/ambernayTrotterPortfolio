@@ -237,6 +237,12 @@ body {
 
 /* #endregion - stops horizontal scroll bounce */
 /* #region - colors */
+/* #region - green */
+/* #endregion - green */
+/* #region - red */
+/* #endregion - red */
+/* #region - yellow */
+/* #endregion - yellow */
 /* #endregion - colors */
 /* #region - fonts */
 /* #endregion - fonts */
@@ -269,7 +275,7 @@ header .nav-container ul {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-header .nav-container ul span:hover {
+header .nav-container ul span:hover, header .nav-container ul span:active {
   color: #e2f5ea;
   text-decoration: underline;
 }
@@ -308,7 +314,7 @@ footer h4 {
 }
 
 .about-section {
-  background: #fffceb;
+  background: #e2f5ea;
   color: #001610;
   text-align: center;
 }
@@ -458,7 +464,7 @@ footer h4 {
   padding: 5px;
 }
 .content-container .links-container .link a {
-  color: hsl(9, 72%, 95%);
+  color: hsl(9, 72%, 98%);
 }
 
 .contact-section {
@@ -485,13 +491,31 @@ footer h4 {
   text-align: center;
   overflow-wrap: anywhere;
 }
-.contact-section .info-container .contact-link-container img {
+.contact-section .info-container .contact-link-container svg {
+  fill: hsl(36, 100%, 98%);
   width: 1.2rem;
   margin: 0 10px;
 }
-.contact-section button {
-  background: #fffbf5;
+.contact-section .info-container .contact-link-container a {
+  color: #001610;
+  font-family: "Fauna One", serif;
+}
+.contact-section .button-container {
+  background: hsl(36, 100%, 98%);
   padding: 10px;
+}
+.contact-section .button-container:hover, .contact-section .button-container:active {
+  background: hsl(40, 92%, 90%);
+}
+.contact-section .contact-link-container:hover a {
+  color: hsl(164, 100%, 15%);
+  text-decoration: underline;
+}
+.contact-section .contact-link-container:hover p {
+  color: hsl(164, 100%, 15%);
+}
+.contact-section .contact-link-container:hover svg {
+  fill: hsl(40, 92%, 90%);
 }
 
 /* #region re-set styles */
@@ -530,6 +554,8 @@ ul {
 }
 
 a, button, input, textarea {
+  background: none;
+  border: none;
   text-decoration: none;
   font-size: 1.2rem;
 }

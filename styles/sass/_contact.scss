@@ -1,7 +1,7 @@
 @use './variables' as *;
 
 .contact-section {
-    background: $accent1;
+    background: $accent3;
 
    .info-container {
     display: flex;
@@ -15,15 +15,38 @@
         text-align: center;
         overflow-wrap: anywhere;
 
-        img{
+        svg{
+            fill: $lightAccent3;
             width: 1.2rem;
             margin: 0 10px;
+        }
+
+        a {
+            color: $paragraphDark;
+            font-family: $paragraph-font;
         }
     }
    }
 
-   button {
-    background: $lightAccent6;
+   .button-container {
+    background: $lightAccent3;
     padding: 10px;
+   }
+
+   .button-container:hover, .button-container:active {
+    background: $midAccent3;
+   }
+
+   .contact-link-container:hover {
+        a {
+            color: $paragraghMidColor;
+            text-decoration: underline;
+        }
+        p {
+            color: $paragraghMidColor;
+        }
+        svg {
+            fill: $midAccent3;
+        }
    }
 }
