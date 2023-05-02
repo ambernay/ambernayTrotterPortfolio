@@ -314,7 +314,7 @@ footer h4 {
 }
 
 .about-section {
-  background: #e2f5ea;
+  background: hsl(36, 100%, 98%);
   color: #001610;
   text-align: center;
 }
@@ -467,6 +467,12 @@ footer h4 {
   color: hsl(9, 72%, 98%);
 }
 
+/* #region - hover styles */
+.links-container .link:hover {
+  background: hsl(9, 72%, 67%);
+}
+
+/* #endregion - hover styles */
 .contact-section {
   background: hsl(39, 95%, 67%);
 }
@@ -513,14 +519,14 @@ footer h4 {
 .contact-section .button-container:hover, .contact-section .button-container:active {
   background: hsl(40, 92%, 90%);
 }
-.contact-section .contact-link-container:hover a {
+.contact-section .copy-icon:hover a, .contact-section .copy-icon:active a, .contact-section .social-links:hover a, .contact-section .social-links:active a {
   color: hsl(164, 100%, 15%);
   text-decoration: underline;
 }
-.contact-section .contact-link-container:hover p {
+.contact-section .copy-icon:hover p, .contact-section .copy-icon:active p, .contact-section .social-links:hover p, .contact-section .social-links:active p {
   color: hsl(164, 100%, 15%);
 }
-.contact-section .contact-link-container:hover svg {
+.contact-section .copy-icon:hover svg, .contact-section .copy-icon:active svg, .contact-section .social-links:hover svg, .contact-section .social-links:active svg {
   fill: hsl(40, 92%, 90%);
 }
 .contact-section .copy-icon:hover {

@@ -47,7 +47,7 @@
     background: $midAccent3;
    }
     // hover styles
-   .contact-link-container:hover {
+   .copy-icon:hover, .copy-icon:active, .social-links:hover, .social-links:active {
         a {
             color: $paragraghMidColor;
             text-decoration: underline;

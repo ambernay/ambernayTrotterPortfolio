@@ -71,3 +71,14 @@
         }
     }
 }
+
+/* #region - hover styles */
+.links-container{
+
+    .link:hover{
+        background: $accent2Hover;
+    }
+
+}
+
+/* #endregion - hover styles */
