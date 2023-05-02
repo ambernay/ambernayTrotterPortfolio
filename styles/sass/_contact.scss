@@ -14,11 +14,16 @@
         justify-content: center;
         text-align: center;
         overflow-wrap: anywhere;
+        // social icons
+        .social-links svg {
+            width: 2rem;
+        }
 
-        svg{
+        svg {
             fill: $lightAccent3;
-            width: 1.2rem;
             margin: 0 10px;
+            // just for clipboard icon
+            width: 1.2rem;
         }
 
         a {

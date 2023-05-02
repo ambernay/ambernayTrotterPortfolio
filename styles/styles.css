@@ -497,10 +497,13 @@ footer h4 {
   text-align: center;
   overflow-wrap: anywhere;
 }
+.contact-section .info-container .contact-link-container .social-links svg {
+  width: 2rem;
+}
 .contact-section .info-container .contact-link-container svg {
   fill: hsl(36, 100%, 98%);
-  width: 1.2rem;
   margin: 0 10px;
+  width: 1.2rem;
 }
 .contact-section .info-container .contact-link-container a {
   color: #001610;
