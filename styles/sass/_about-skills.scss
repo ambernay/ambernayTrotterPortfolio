@@ -26,14 +26,14 @@
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                // width of largest item (javascript icon)
-                width: 82px;
+                text-align: center;
+                // divides the space evenly amoung the 8 icons
+                width: calc(100% / 8);
+                height: calc(100% / 8);
                 margin: 5px;
 
                 .icon-container {
                     display: flex;
-                    width: 8vw;
-                    height: 8vw;
                     justify-content: center;
                     align-items: center;
 
