@@ -13,7 +13,8 @@
     .skill-container {
 
         h3, h5{
-          color: $lightAccent1;
+            color: $lightAccent1;
+            white-space: nowrap;
         }
 
         ul {
@@ -25,11 +26,11 @@
             li {
                 display: flex;
                 flex-direction: column;
+                justify-content: space-between;
                 align-items: center;
                 text-align: center;
                 // divides the space evenly amoung the 8 icons
                 width: calc(100% / 8);
-                height: calc(100% / 8);
                 margin: 5px;
 
                 .icon-container {

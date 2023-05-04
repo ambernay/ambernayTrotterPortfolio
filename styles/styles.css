@@ -335,6 +335,7 @@ footer h4 {
 }
 .skills-section .skill-container h3, .skills-section .skill-container h5 {
   color: #e2f5ea;
+  white-space: nowrap;
 }
 .skills-section .skill-container ul {
   display: -webkit-box;
@@ -357,12 +358,14 @@ footer h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
   width: 12.5%;
-  height: 12.5%;
   margin: 5px;
 }
 .skills-section .skill-container ul li .icon-container {
@@ -577,6 +580,7 @@ html {
 }
 
 .main-sections {
+  scroll-margin-top: 40px;
   padding: 30px 0;
 }
 

@@ -12,6 +12,8 @@ html {
 }
 
 .main-sections {
+    // accounts for fixed header nav on anchor scroll
+    scroll-margin-top: $navHeight;
     padding: $padding-gaps 0;
 }
 
