@@ -255,11 +255,14 @@ header .nav-container {
   position: fixed;
   top: 0;
   left: 0;
-  height: 6vh;
+  height: 40px;
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   background: #001610;
   z-index: 10;
 }
@@ -267,7 +270,7 @@ header .nav-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 6vh;
+  height: 40px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -283,11 +286,11 @@ header .nav-container ul a {
   color: #e2f5ea;
 }
 header .main-header-container {
-  height: 94vh;
+  height: calc(100vh - 40px);
   background: url("../assets/amritansh-dubey-RMhEsHR2gzA-unsplash.jpg");
   background-size: cover;
   background-position-y: 75vw;
-  margin-top: 6vh;
+  margin-top: 40px;
 }
 header .main-header-container .heading-text-container {
   display: -webkit-box;
@@ -306,7 +309,7 @@ header .main-header-container .heading-text-container {
 
 footer {
   background: #001610;
-  height: 6vh;
+  height: 40px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -337,9 +340,9 @@ footer h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
+  -webkit-column-gap: 6vw;
+     -moz-column-gap: 6vw;
+          column-gap: 6vw;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
