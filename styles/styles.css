@@ -306,11 +306,18 @@ header .main-header-container .heading-text-container {
 
 footer {
   background: #001610;
+  height: 6vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 30px;
 }
 footer h4 {
   color: #e2f5ea;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .about-section {
@@ -349,6 +356,8 @@ footer h4 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 82px;
+  margin: 5px;
 }
 .skills-section .skill-container ul li .icon-container {
   display: -webkit-box;
@@ -438,6 +447,7 @@ footer h4 {
   margin-top: 10px;
 }
 .content-container .info-container ul li {
+  list-style: circle;
   display: list-item;
   min-width: 240px;
 }
@@ -503,7 +513,7 @@ footer h4 {
 .contact-section .info-container .contact-link-container svg {
   fill: hsl(36, 100%, 98%);
   margin: 0 10px;
-  width: 1.2rem;
+  width: 1.5rem;
 }
 .contact-section .info-container .contact-link-container a {
   color: #001610;
@@ -583,7 +593,6 @@ html {
 ul {
   list-style: none;
   padding: 0;
-  margin: 0;
 }
 
 a, button, input, textarea {
@@ -599,7 +608,9 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul,
+figure {
   margin: 0;
 }
 
