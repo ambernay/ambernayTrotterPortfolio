@@ -509,7 +509,6 @@ footer h4 {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  overflow-wrap: anywhere;
 }
 .contact-section .info-container .contact-link-container .social-links svg {
   width: 2rem;
@@ -525,6 +524,9 @@ footer h4 {
 }
 .contact-section .copy-icon .clipboard-tooltip {
   display: none;
+}
+.contact-section .copy-icon .my-email span {
+  display: inline-block;
 }
 .contact-section .button-container {
   background: hsl(36, 100%, 98%);

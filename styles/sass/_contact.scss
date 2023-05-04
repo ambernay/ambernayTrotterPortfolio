@@ -13,7 +13,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        overflow-wrap: anywhere;
+
         // social icons
         .social-links svg {
             width: 2rem;
@@ -33,9 +33,13 @@
     }
    }
 
-   .copy-icon {
-    .clipboard-tooltip {
+    .copy-icon {
+        .clipboard-tooltip {
             display: none;
+        }
+        // breaks contact email on span
+        .my-email span {
+            display: inline-block;
         }
    }
 
