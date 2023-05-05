@@ -19,6 +19,7 @@
 
         ul {
             display: flex;
+            row-gap: 15px;
             column-gap: $padding-gaps;
             flex-wrap: wrap;
             justify-content: center;
@@ -29,8 +30,8 @@
                 justify-content: space-between;
                 align-items: center;
                 text-align: center;
-                // divides the space evenly amoung the 8 icons
-                width: calc(100% / 8);
+                max-width:97px;
+                width: 25%;
                 margin: 5px;
 
                 .icon-container {
