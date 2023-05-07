@@ -341,6 +341,7 @@ footer h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  row-gap: 15px;
   -webkit-column-gap: 30px;
      -moz-column-gap: 30px;
           column-gap: 30px;
@@ -365,7 +366,8 @@ footer h4 {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  width: 12.5%;
+  max-width: 97px;
+  width: 25%;
   margin: 5px;
 }
 .skills-section .skill-container ul li .icon-container {
@@ -380,7 +382,7 @@ footer h4 {
           align-items: center;
 }
 .skills-section .skill-container ul li .icon-container img {
-  width: 100%;
+  width: 97px;
 }
 
 .projects-section {
