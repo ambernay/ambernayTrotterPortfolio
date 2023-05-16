@@ -264,6 +264,7 @@ header .nav-container {
       -ms-flex-align: end;
           align-items: flex-end;
   background: #001610;
+  padding-bottom: 2px;
   z-index: 10;
 }
 header .nav-container ul {
@@ -317,7 +318,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  padding: 30px;
+  padding: 40px;
 }
 footer h4 {
   color: #e2f5ea;
@@ -328,6 +329,32 @@ footer h4 {
   background: hsl(36, 100%, 98%);
   color: #001610;
   text-align: center;
+}
+.about-section .about-info-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.about-section .about-info-container .image-container {
+  background: url("../assets/Avatar.jpg");
+  background-position-x: 47%;
+  background-position-y: 98%;
+  background-size: 215%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 10%;
+  margin-bottom: 20px;
 }
 
 .skills-section {
@@ -342,9 +369,9 @@ footer h4 {
   display: -ms-flexbox;
   display: flex;
   row-gap: 15px;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
@@ -402,10 +429,10 @@ footer h4 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
-  row-gap: 30px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+  row-gap: 40px;
 }
 .projects-section .projects-container ul li {
   display: -webkit-box;
@@ -434,7 +461,7 @@ footer h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 30px;
+  padding: 40px;
   padding-left: 40px;
 }
 .content-container h5 {
@@ -507,7 +534,7 @@ footer h4 {
       -ms-flex-direction: column;
           flex-direction: column;
   row-gap: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .contact-section .info-container .contact-link-container {
   display: -webkit-box;
@@ -579,11 +606,12 @@ footer h4 {
 html {
   font-size: 125%;
   background: #001610;
+  scroll-behavior: smooth;
 }
 
 .main-sections {
   scroll-margin-top: 40px;
-  padding: 30px 0;
+  padding: 40px 0;
 }
 
 .container {
@@ -700,7 +728,7 @@ p,
 
 h3 {
   font-size: 2rem;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 h4 {
