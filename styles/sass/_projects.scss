@@ -18,7 +18,8 @@
                 background: $lightAccent2;
                 flex-direction: column;
                 flex: 1 1 40%;
-                min-width: 200px;
+                min-width: 250px;
+                max-width: 520px;
             }
         }
     }
@@ -49,7 +50,7 @@
             li {
                 list-style: circle;
                 display: list-item;
-                min-width: inherit;
+                min-width: 50%;
                 flex: 1 1 100%;
             }
         }
@@ -75,9 +76,9 @@
 }
 
 /* #region - hover styles */
-.links-container{
+.links-container {
 
-    .link:hover{
+    .link:hover {
         background: $accent2Hover;
     }
 
