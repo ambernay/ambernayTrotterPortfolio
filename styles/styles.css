@@ -279,7 +279,8 @@ header .nav-container ul {
       -ms-flex-align: end;
           align-items: flex-end;
 }
-header .nav-container ul span:hover, header .nav-container ul span:active {
+header .nav-container ul span:hover,
+header .nav-container ul span:active {
   color: #e2f5ea;
   text-decoration: underline;
 }
@@ -288,7 +289,7 @@ header .nav-container ul a {
 }
 header .main-header-container {
   height: calc(100vh - 40px);
-  background: url("../assets/amritansh-dubey-RMhEsHR2gzA-unsplash.jpg");
+  background: url("../assets/header-image.jpg");
   background-size: cover;
   background-position-y: 75vw;
   margin-top: 40px;
@@ -346,10 +347,10 @@ footer h4 {
           align-items: center;
 }
 .about-section .about-info-container .image-container {
-  background: url("../assets/Avatar.jpg");
+  background: url("../assets/avatar.jpg");
   background-position-x: 47%;
   background-position-y: 98%;
-  background-size: 215%;
+  background-size: 135%;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -360,7 +361,8 @@ footer h4 {
 .skills-section {
   background: #035b53;
 }
-.skills-section .skill-container h3, .skills-section .skill-container h5 {
+.skills-section .skill-container h3,
+.skills-section .skill-container h5 {
   color: #e2f5ea;
   white-space: nowrap;
 }
