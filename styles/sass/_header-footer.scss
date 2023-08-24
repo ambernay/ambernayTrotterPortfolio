@@ -23,7 +23,8 @@ header {
             align-items: flex-end;
 
             // underline links on hover
-            span:hover, span:active {
+            span:hover,
+            span:active {
                 color: $lightAccent1;
                 text-decoration: underline;
             }
@@ -36,7 +37,7 @@ header {
 
     .main-header-container {
         height: calc(100vh - $navHeight);
-        background: url("../assets/amritansh-dubey-RMhEsHR2gzA-unsplash.jpg");
+        background: url("../assets/header-image.webp");
         background-size: cover;
         background-position-y: 75vw;
         margin-top: $navHeight;

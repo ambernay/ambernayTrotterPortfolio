@@ -7,13 +7,13 @@
     text-align: center;
 
     .about-info-container {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
         .image-container {
-            background: url("../assets/Avatar.jpg");
+            background: url("../assets/Avatar.webp");
             background-position-x: 47%;
             background-position-y: 98%;
             background-size: 215%;
@@ -26,17 +26,14 @@
     }
 }
 
-
-
-
-
 // skills
 .skills-section {
     background: $accent1;
 
     .skill-container {
 
-        h3, h5{
+        h3,
+        h5 {
             color: $lightAccent1;
             white-space: nowrap;
         }
